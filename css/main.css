@@ -95,9 +95,281 @@ textarea {
    Author's custom styles
    ========================================================================== */
 
+/*GENERAL WRAPPERS & STYLE*/
+    *{
+        color: rgba(255,255,255,1);
+        /*font-family: '';*/
+    }
+
+    #fullWrapper{
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        overflow: hidden;
+    }
+
+    #sectionsWrapper{
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        overflow-y: scroll;
+    }
+
+    .rfSections{
+        position: relative;
+        width: 100%;
+        height: 100%;
+        min-height: 600px;
+        float: left;
+        
+    }
+/*END GENERAL WRAPPERS*/
+
+/*HEADER*/
+    #menuHeader{
+        position: fixed;
+        width: 100%;
+        height: 78px;
+        background-color: rgba(0,0,0,1);
+        z-index: 1000000000;
+    }
+
+        #menuHeader li{
+            position: relative;
+            width: 20%;
+            height: 100%;
+            line-height: 78px;
+            display: inline-block;
+            vertical-align: top;
+            zoom: 1; /* Fix for IE7 */
+            *display: inline; /* Fix for IE7 */
+            float: left;
+            list-style-type: none;
+            text-transform: uppercase;
+            text-align: center;
+        }
+        #menuHeader li:hover{
+            background-color: rgba(255,0,0,.5);
+        }
+
+        #logoLi img{
+            position: absolute;
+            margin: auto;
+            left: 0; right: 0;
+            top: 0; bottom: 0;
+        }
+
+            #menuHeader li a{
+                display: block;
+                text-decoration: none;
+    
+            }
+            #menuHeader li a:hover{
+                text-decoration: underline;
+            }
+/*END HEADER*/
+
+/*HOME // SECTION 1*/
+    #section1{
+        background-color: rgba(0,0,0,.5);
+    }
+
+    #homeDescription{
+        position: absolute;
+        width: 80%;
+        height: 30%;
+        margin: auto;
+        top: 0; bottom: 0;
+        left: 0; right: 0;
+        text-align: center;
+        
+    }
+
+        #homeDescription h1{
+            text-transform: uppercase;
+        }
+
+
+    #homeServiceList{
+        position: absolute;
+        width: 70%;
+        height: 30%;
+        margin: auto;
+        left: 0; right: 0;
+        top: 70%;
+    }
+        #homeServiceList li{
+            position: relative;
+            width: 25%;
+            height: 30px;/*
+            overflow: hidden;*/
+            display: inline-block;
+            vertical-align: top;
+            zoom: 1; /* Fix for IE7 */
+            *display: inline; /* Fix for IE7 */
+            float: left;
+
+        }
+
+        #homeServiceList li:nth-child(2){
+            margin: 0 12.5%;
+        }
+
+            #homeServiceList li .sTitle{
+                position: absolute;
+                width: 100%;
+                background-color: rgba(0,0,0,1);
+                line-height: 30px;
+                text-align: center;
+                text-transform: uppercase;
+            }
+
+            #homeServiceList li .sContent{
+                position: absolute;
+                width: 90%;
+                padding: 50px 5% 20px 5%;
+                z-index: 1;
+                background-color: rgba(0,0,0,.5);
+
+                opacity: 0;
+                filter: alpha(opacity=0);
+            }
+                #homeServiceList li .sContent:hover{
+                    opacity: 1;
+                    filter: alpha(opacity=1);
+                }
+/*END HOME // S1*/
+
+/*NOSOTROS // SECTION 2*/
+    #section2{
+        background-color: rgba(0,0,0,.6);
+    }
+
+    #nosotrosWrap{
+        position: absolute;
+        width: 50%;
+        height: 70%;
+        margin: auto;
+        top: 0; bottom: 0;
+        left: 0; right: 0;
+    }
+
+        #nosotrosWrap .halfColumn{
+            position: relative;
+            float: left;
+            width: 50%;
+            height: 100%;
+
+        }
+            #nosotrosWrap .halfColumn h3{
+                text-transform: uppercase;
+            }
+            #nosotrosWrap .halfColumn h4{
+                text-transform: uppercase;
+            }
+            #nosotrosWrap .halfColumn p{
+                width: 80%;
+                padding: 10% 10%;
+            }
+/*END NOS // S2*/
+
+/*SERVICIOS // SECTION 3*/  
+    #section3{
+        background-color: rgba(0,0,0,.7);
+    }
+
+    #serviceWrap{
+        position: absolute;
+        width: 70%;
+        height: 70%;
+        margin: auto;
+        top: 0; bottom: 0;
+        left: 0; right: 0;
+    }
+        #serviceWrap h3{
+            position: relative;
+            width: 100%;
+            height: 50px;
+            text-transform: uppercase;
+        }
+
+        #serviceWrap .servicesList{
+            position: relative;
+            width: 100%;
+            height: 42px;
+            overflow: hidden;
+        }
+            #serviceWrap .servicesList h4{
+                display: initial;
+                position: relative;
+                width: auto;
+                height: 50px;
+                line-height: 50px;
+                padding: 8px 15px;
+                text-transform: uppercase;
+                background-color: rgba(0,0,0,1);
+            }
+            #serviceWrap .servicesList p{
+                padding-left: 15px;
+            }
+/*END SERV // S3*/
+
+/*BOLSA DE TRABAJO // SECTION 4*/
+    #section4{
+        background-color: rgba(255,0,0,.5);
+    }
+
+        #bolsaWrap{
+            position: absolute;
+            width: 90%;
+            height: 70%;
+            margin: auto;
+            top: 0; bottom: 0;
+            left: 0; right: 0;
+            background-color: rgba(0,255,0,.5);
+        }
+            #bolsaWrap h3{
+                position: relative;
+                width: 100%;
+                height: 50px;
+                text-transform: uppercase;
+                margin: 0;
+            }
+
+            #bolsaWrap .innerBox{
+                position: relative;
+                width: 100%;
+                height: 90%;
+                height: calc(100% - 50px);
+                background-color: rgba(255,0,0,.5);
+            }
+/*END BOLSA // S4*/
 
 
 
+
+/*ANIMATION CLASSES*/
+    .easeInOut{
+        -webkit-transition: all .4s ease-in-out;
+           -moz-transition: all .4s ease-in-out;
+            -ms-transition: all .4s ease-in-out;
+             -o-transition: all .4s ease-in-out;
+                transition: all .4s ease-in-out;
+    }
+
+    .crystal{
+        opacity: 0 !important;
+        filter: alpha(opacity=0) !important;
+    }
+
+    .tdropShadow{
+        text-shadow: 1px 2px 0 rgba(0,0,0,1);
+    }
+
+    .showService{
+        height: 150px !important;
+    }
+/*END ANIMATION*/
 
 
 
