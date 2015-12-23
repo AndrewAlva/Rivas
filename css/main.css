@@ -227,6 +227,7 @@ textarea {
             #homeServiceList li .sContent{
                 position: absolute;
                 width: 90%;
+                max-height: 110px;
                 padding: 50px 5% 20px 5%;
                 z-index: 1;
                 background-color: rgba(0,0,0,.5);
@@ -339,10 +340,14 @@ textarea {
             #bolsaWrap .innerBox{
                 position: relative;
                 width: 100%;
-                height: 90%;
-                height: calc(100% - 50px);
                 background-color: rgba(255,0,0,.5);
             }
+                #bolsaWrap .innerBox .halfColumn{
+                    position: relative;
+                    float: left;
+                    width: 50%;
+                    height: 100%;
+                }
 /*END BOLSA // S4*/
 
 
