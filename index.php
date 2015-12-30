@@ -2,13 +2,14 @@
     <head>
         <meta charset="utf-8">
         <meta http-equiv="x-ua-compatible" content="ie=edge">
-        <title></title>
+        <title>Rivas&Fregoso</title>
         <meta name="description" content="">
         <meta name="viewport" content="width=device-width, initial-scale=1">
 
         <link rel="apple-touch-icon" href="apple-touch-icon.png">
         <!-- Place favicon.ico in the root directory -->
-
+        
+        <link href='https://fonts.googleapis.com/css?family=PT+Sans:400,700' rel='stylesheet' type='text/css'>
         <link rel="stylesheet" href="css/normalize.css">
         <link rel="stylesheet" href="css/main.css">
         <script src="js/vendor/modernizr-2.8.3.min.js"></script>
@@ -53,15 +54,21 @@
                     <div id="nosotrosWrap">
                         <div class="halfColumn tdropShadow">
                             <h3>Nosotros</h3>
-                            <p>Rivas y Fregoso fue fundada en Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolores ab eum voluptatibus velit dicta, nam ratione! Sit magnam repellat ut nisi iusto exercitationem, non unde pariatur quo corporis, quasi a!</p>
+                            <p>
+                                Somos una firma mexicana de contadores públicos y consultores, destacada por su liderazgo en la prestación de servicios integrales Y personalizados a las empresas privadas y a sus propietarios en nuestro país. Rivas y Fregoso, fue fundada en 2008 con el compromiso de brindar servicios integrales a sus clientes con altos estándares de operación, tales como: calidad profesional, experiencia, compromiso personal y de equipo; manteniendo siempre una comunicación efectiva con los dueños y directivos de las empresas. La Firma se encuentra integrada por profesionales altamente capacitados en las distintas ramas, los cuales participan en la prestación de servicios en el ámbito fiscal, contable, de consultoría y planeación fiscal, jurídico, de seguridad social y outsourcing administrativo, contable y de capital humano.
+                            </p>
                         </div>
 
                         <div class="halfColumn tdropShadow">
                             <h4>Misión</h4>
-                            <p>Rivas y Fregoso fue fundada en Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolores ab eum voluptatibus velit dicta, nam ratione! Sit magnam repellat ut nisi iusto exercitationem, non unde pariatur quo corporis, quasi a!</p>
+                            <p>
+                                Proporcionar con el más elevado nivel profesional, técnico y ético servicios profesionales integrales que representen un beneficio real para nuestros clientes, manteniendo una filosofía de mejora continua y  con un espíritu de honestidad hacia nuestros clientes acompañado de un compromiso integral hacia la sociedad.
+                            </p>
 
                             <h4>Visión</h4>
-                            <p>Rivas y Fregoso fue fundada en Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolores ab eum voluptatibus velit dicta, nam ratione! Sit magnam repellat ut nisi iusto exercitationem, non unde pariatur quo corporis, quasi a!</p>
+                            <p>
+                                Ser la firma de contadores públicos y consultores líder, por prestigio, especialización y calidad en nuestros servicios, dando servicios integrales tanto a empresas privadas como a empresarios, con representación nacional de alta calidad en todos los centros económicos importantes de México.
+                            </p>
                         </div>
                     </div>
                 </div>
@@ -72,38 +79,106 @@
                         <h3>Servicios</h3>
                         <div class="servicesList easeInOut showService">
                             <h4>Contabilidad</h4>
-                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cumque, aperiam laboriosam in unde placeat adipisci, temporibus delectus magnam, atque deleniti, facilis doloribus nesciunt repudiandae deserunt animi amet beatae perspiciatis nostrum!</p>
+                            <p>
+                                Nuestros servicios de contabilidad estarán enfocados al cumplimiento con las Normas Contables aplicables a su empresa, así como con la materia fiscal, mercantil y/o alguna otra que tuviera alguna afectación en los registros contables y legales, adicionalmente se buscará obtener la oportuna preparación de la información financiera, para una adecuada toma de decisiones de la empresa. <br><br>
+
+                                Asimismo derivado a la competitividad que exige el mercado hoy en día, se trabajará con un alto nivel de profesionalismo y astucia donde se implementarán políticas contables adecuadas para ser aplicadas de forma que a los socios y encargados de la administración de la empresa les permitan analizar, pensar estratégicamente, planificar, cooperar y responder de una manera mejor manera a las situaciones que vive la empresa, originando una mejor toma de decisiones y no solo buscando cumplir con necesidades contables y legales obligatorias. <br><br>
+
+                                Algunos de nuestros servicios relacionados con esta área son: <br>
+
+                                <ol>• Registro y codificación de Contabilidad</ol>
+
+                                <ol>• Consultoría y Revisión de Contabilidad</ol>
+
+
+                            </p>
                         </div>
 
                         <div class="servicesList easeInOut">
-                            <h4>Administración de Bienes</h4>
-                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Illo est dolores, sapiente, voluptate fuga illum nesciunt neque officia? Laborum, natus, deserunt iste asperiores impedit quae voluptatum illum fugit quidem saepe!</p>
+                            <h4>Fiscal</h4>
+                            <p>
+                                El entorno de la materia fiscal en la actualidad es cada vez más complejo, lo que conlleva a más exigencias por parte de la autoridad, los departamentos de impuestos de las empresas se encuentran bajo presión para ser más eficientes y poder crear estrategias que ayuden a la empresa a continuar en una operación económica sana y puede ser difícil encontrar consultores altamente calificados que puedan brindarte el apoyo necesario en esta área. <br><br>
+
+                                Para ayudarle a satisfacer estas exigencias a las empresas, le ofrecemos asistencia en distintos puntos claves: <br><br>
+
+                                <ol>• Alta y registro de la empresa.</ol>
+
+                                <ol>• Cálculo de impuestos</ol>
+
+                                <ol>• Presentación de Declaraciones</ol>
+
+                                <ol>• Devoluciones y Compensaciones</ol>
+
+                                <ol>• Planeación y Estrategia Fiscal</ol>
+
+
+                            </p>
                         </div>
 
                         <div class="servicesList easeInOut">
-                            <h4>Impuestos</h4>
-                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eos, provident deserunt. Doloremque quia quibusdam ipsam ab debitis non possimus et dolorum facilis mollitia! Cupiditate iure molestias ipsam consequatur quis, dolore?</p>
-                        </div>
+                            <h4>Nómina</h4>
+                            <p>
+                                La normatividad laboral y de seguridad social, conlleva a los empresarios a que deban cumplir una serie de obligaciones con respecto del personal que colabora dentro de sus negocios, por ello es de gran importancia contar con el apoyo especializado para el debido cumplimiento de dichas obligaciones. <br><br>
 
-                        <div class="servicesList easeInOut">
-                            <h4>Nóminas</h4>
-                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sequi accusantium repellat quia quis, nesciunt doloribus dicta. Distinctio neque molestias et ipsa temporibus magnam aliquam, quidem ipsam, quas eaque nostrum voluptatem.</p>
-                        </div>
 
-                        <div class="servicesList easeInOut">
-                            <h4>Seguridad</h4>
-                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptas fugit expedita eius, minus debitis earum repudiandae. Facilis praesentium commodi harum dignissimos, incidunt, aliquam deserunt distinctio pariatur voluptatum illo nam nisi.</p>
-                        </div>
+                                <ol>• Por lo anterior, ofrecemos los siguientes servicios:  </ol>
 
-                        <div class="servicesList easeInOut">
-                            <h4>Consultoría</h4>
-                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iste suscipit fugiat possimus facilis quis temporibus et molestiae aut veritatis repellat nemo ducimus id pariatur assumenda, distinctio, inventore deserunt corporis provident.</p>
+                                <ol>• Alta y Movimientos Afiliatorios ante el I. M. S. S. </ol>
+
+                                <ol>• Cálculo, timbrado y registro de Nómina </ol>
+
+                                <ol>• Cálculo de Cuotas Obrero Patronales </ol>
+
+                                <ol>• Cálculo y presentación de Impuestos Estatales </ol>
+
+                                <ol>• Administración y Planeación en Seguridad Social </ol>
+
+                            </p>
                         </div>
 
                         <div class="servicesList easeInOut">
                             <h4>Legal</h4>
-                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. In pariatur amet, commodi nisi excepturi provident natus beatae, sapiente odit quas illo quos explicabo molestias accusantium consectetur repudiandae recusandae, a obcaecati.</p>
+                            <p>
+                                Es muy importante estar debidamente asesorados en todos los aspectos legales en torno a las operaciones que realizan en sus negocios, con el objetivo de tener la certeza jurídica, así como estar dentro del marco legal en las operaciones que se llevan a cabo en el día a día. Por consiguiente ofrecemos los siguientes servicios: <br><br>
+
+                                <div class="thirdColumn">
+                                    <span> FISCAL </span> <br> <br>
+
+                                    <span> ADMINISTRATIVO </span> <br>
+                                    Propiedad intelectual <br>
+                                    Nacional de Derechos de Autor (INDAUTOR) <br> <br>
+
+                                    <span> NOTARIAL </span> <br>
+                                    Asesoría Legal <br>
+
+                                    
+                                </div>
+
+                                <div class="thirdColumn">
+                                    <span> MERCANTIL </span> <br>
+                                    Sociedades Mercantiles <br>
+                                    Litigio Mercantil <br> <br>
+
+                                    <span> CIVIL </span> <br>
+                                    Elaboración de Contratos <br>
+                                    Propiedad Inmobiliaria <br>
+                                    Litigio 
+                                </div>
+
+                                <div class="thirdColumn">
+
+                                    <span> FAMILIAR </span> <br>
+                                    Procesos ante autoridades <br>  <br>
+
+                                    <span> LABORAL </span> <br> <br>
+
+                                    <span> PENAL </span> <br>
+                                    Delitos Patrimoniales
+                                </div>
+
+                            </p>
                         </div>
+
                     </div>
                 </div>
 
@@ -411,8 +486,11 @@
                                     <div class="attachFile">
                                         <label for="" class="xminLabel">Adjuntar CV</label>
                                         <input name="CV" type="file">
-                                        <label for="" class="xminLabel"></label>
                                     </div>
+                                    <label for="" class="minLabel">CV formato Word o PDF con fotografía</label>
+                                    
+                                    <input name="submit" type="submit" value="ENVIAR">
+
 
                                 </div>
                             </form>

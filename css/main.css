@@ -98,7 +98,7 @@ textarea {
 /*GENERAL WRAPPERS & STYLE*/
     *{
         color: rgba(255,255,255,1);
-        /*font-family: '';*/
+        font-family: 'PT Sans', sans-serif;
     }
 
     #fullWrapper{
@@ -119,7 +119,7 @@ textarea {
         position: relative;
         width: 100%;
         height: 100%;
-        min-height: 600px;
+        min-height: 750px;
         float: left;
         
     }
@@ -176,7 +176,7 @@ textarea {
 
     #homeDescription{
         position: absolute;
-        width: 80%;
+        width: 70%;
         height: 30%;
         margin: auto;
         top: 0; bottom: 0;
@@ -187,6 +187,21 @@ textarea {
 
         #homeDescription h1{
             text-transform: uppercase;
+            font-size: 3.5em;
+            line-height: 1em;
+            margin: 0;
+        }
+        #homeDescription h2{
+            width: 50%;
+            margin: auto;
+            margin-top: 30px;
+            font-weight: 400;
+            font-size: 1.2em;
+            -webkit-font-smoothing: antialiased;
+               -moz-font-smoothing: antialiased;
+                -ms-font-smoothing: antialiased;
+                 -o-font-smoothing: antialiased;
+                    font-smoothing: antialiased;
         }
 
 
@@ -270,7 +285,7 @@ textarea {
             }
             #nosotrosWrap .halfColumn p{
                 width: 80%;
-                padding: 10% 10%;
+                padding: 2% 10% 10% 10%;
             }
 /*END NOS // S2*/
 
@@ -299,6 +314,12 @@ textarea {
             width: 100%;
             height: 42px;
             overflow: hidden;
+
+            -webkit-font-smoothing: antialiased;
+               -moz-font-smoothing: antialiased;
+                -ms-font-smoothing: antialiased;
+                 -o-font-smoothing: antialiased;
+                    font-smoothing: antialiased;
         }
             #serviceWrap .servicesList h4{
                 display: initial;
@@ -313,6 +334,17 @@ textarea {
             #serviceWrap .servicesList p{
                 padding-left: 15px;
             }
+                #serviceWrap .servicesList .thirdColumn{
+                    position: relative;
+                    width: 30%;
+                    float: left;
+                    padding-left: 20px;
+                }
+                    #serviceWrap .servicesList .thirdColumn span{
+                        margin-left: -20px;
+                        font-weight: 700;
+                        text-decoration: underline;
+                    }
 /*END SERV // S3*/
 
 /*BOLSA DE TRABAJO // SECTION 4*/
@@ -348,6 +380,30 @@ textarea {
                     width: 50%;
                     height: 100%;
                 }
+
+                    .attachFile{
+                        position: relative;
+                        width: 98px;
+                        height: 24px;
+                        line-height: 24px;
+                        overflow: hidden;
+                    }
+                        .attachFile .xminLabel{
+                            position: absolute;
+                            width: 100%;
+                            height: 100%;
+                            text-align: center;
+                            background-color: rgba(20,20,20,1);
+                        }
+                        .attachFile input{
+                            position: absolute;
+                            display: block;
+                            width: 100%;
+                            height: 100%;
+                            opacity: 0;
+                            filter: alpha(opacity=0) !important;
+                            z-index: 1;
+                        }
 /*END BOLSA // S4*/
 
 
@@ -372,7 +428,7 @@ textarea {
     }
 
     .showService{
-        height: 150px !important;
+        height: auto !important;
     }
 /*END ANIMATION*/
 
