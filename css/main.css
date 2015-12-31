@@ -296,7 +296,7 @@ textarea {
 
     #serviceWrap{
         position: absolute;
-        width: 70%;
+        width: 80%;
         height: 70%;
         margin: auto;
         top: 0; bottom: 0;
@@ -354,7 +354,7 @@ textarea {
 
         #bolsaWrap{
             position: absolute;
-            width: 90%;
+            width: 70%;
             height: 70%;
             margin: auto;
             top: 0; bottom: 0;
@@ -377,9 +377,37 @@ textarea {
                 #bolsaWrap .innerBox .halfColumn{
                     position: relative;
                     float: left;
-                    width: 50%;
+                    width: 40%;
                     height: 100%;
                 }
+                #bolsaWrap .innerBox .halfColumn:first-child{
+                    margin-right: 20%;
+                }
+                    .bolsaLine{
+                        margin-bottom: 10px;
+                        text-shadow: none;
+                    }
+                        .bolsaLine label{
+                            text-transform: uppercase;
+                            font-size: 1em;
+                        }
+
+                        .bolsaLine input{
+                            position: absolute;
+                            width: auto;
+                            right: 0;
+                            background-color: transparent;
+                            border: none;
+                            border-bottom: 2px solid #000;
+                        }
+                        .minLabel{
+                            text-transform: none;
+                            font-size: .8em;
+                        }
+                        .xminLabel{
+                            text-transform: none;
+                            font-size: .6em;
+                        }
 
                     .attachFile{
                         position: relative;
@@ -404,7 +432,42 @@ textarea {
                             filter: alpha(opacity=0) !important;
                             z-index: 1;
                         }
+
+                        #inSubmit{
+                            text-align: center;
+                            background-color: rgba(20,20,20,1);
+                        }
 /*END BOLSA // S4*/
+
+/*CONTACTO // SECTION 5*/
+    #section5{
+        background-color: rgba(255,0,0,.5);
+    }
+
+        #contactWrap{
+            position: absolute;
+            width: 80%;
+            height: 70%;
+            margin: auto;
+            top: 0; bottom: 0;
+            left: 0; right: 0;
+            background-color: rgba(0,255,0,.5);
+        }
+            #contactWrap h3{
+                position: relative;
+                width: 100%;
+                height: 50px;
+                text-transform: uppercase;
+                margin: 0;
+            }
+
+            #contactWrap .innerBox{
+                position: relative;
+                width: 100%;
+                background-color: rgba(255,0,0,.5);
+            }
+
+/*END CONTACTO // S5*/
 
 
 
