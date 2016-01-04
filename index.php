@@ -189,81 +189,82 @@
                         <div class="innerBox">
                             <form action="">
                                 <div class="halfColumn">
-                                    <div class="bolsaLine">
+                                    <div id="formName" class="bolsaLine">
                                         <label for="">Nombre</label>
-                                        <input id="inName" name="name" type="text">
+                                        <input name="name" type="text">
                                     </div>
 
-                                    <div class="bolsaLine">
+                                    <div id="formAge" class="bolsaLine">
                                         <label for="">Edad</label>
-                                        <input id="inAge" name="age" type="text">
+                                        <input name="age" type="text">
                                     </div>
 
-                                    <div class="bolsaLine">
+                                    <div id="formMail" class="bolsaLine">
                                         <label for="">Mail</label>
-                                        <input id="inMail" name="mail" type="text">
+                                        <input name="mail" type="text">
                                     </div>
 
-                                    <div class="bolsaLine">
+                                    <div id="formPhone" class="bolsaLine">
                                         <label for="">Teléfono</label>
-                                        <input id="inPhone" name="phone" type="text">
+                                        <input name="phone" type="text">
                                     </div>
 
-                                    <div class="bolsaLine">
+                                    <div id="formAdd" class="bolsaLine">
                                         <label for="">Dirección</label>
-                                        <input id="inAdd" name="address" type="text">
+                                        <input name="address" type="text">
                                     </div>
 
-                                    <div class="bolsaLine">
+                                    <div id="formCar" class="bolsaLine">
                                         <label for="">Cuenta con Auto Propio</label>
-                                        <select id="inCar" name="car" id="">
+                                        <select name="car" id="">
+                                            <option value="-">-</option>
                                             <option value="Yes">Si</option>
                                             <option value="No">No</option>
                                         </select>
                                     </div>
 
-                                    <div class="bolsaLine">
+                                    <div id="formProgram" class="bolsaLine">
                                         <label for="">Programas manejados</label>
-                                        <input id="inProgram" name="programs" type="text">
+                                        <input name="programs" type="text">
                                     </div>
 
                                 </div>
 
                                 <div class="halfColumn">
-                                    <div class="bolsaLine">
+                                    <div id="formCareer" class="bolsaLine">
                                         <label for="">Carrera</label>
-                                        <input id="inCareer" name="career" type="text">
+                                        <input name="career" type="text">
                                     </div>
 
                                     <div class="bolsaLine">
                                         <label for="">Grado de Estudios</label>
                                     </div>
 
-                                    <div class="bolsaLine minLabel">
-                                        <input id="inStudent" name="student" type="checkbox"> Estudiante universitario
+                                    <div id="formStudent" class="bolsaLine minLabel">
+                                        <input name="student" type="checkbox"> Estudiante universitario
                                     </div>
 
-                                    <div class="bolsaLine minLabel">
-                                        <input id="inBachelor" name="bachelor" type="checkbox"> Licenciatura
-                                        
+                                    <div id="formBachelor" class="bolsaLine minLabel">
+                                        <input name="bachelor" type="checkbox"> Licenciatura
                                     </div>
 
-                                    <div class="bolsaLine minLabel">
-                                        <input id="inMaster" name="master" type="checkbox"> Maestría
+                                    <div id="formMaster" class="bolsaLine minLabel">
+                                        <input name="master" type="checkbox"> Maestría
                                     </div>
 
                                     <div class="bolsaLine">
                                         <label for="">Experiencia Profesional</label>
                                     </div>
 
-                                    <div class="bolsaLine">
+                                    <div id="formExperience" class="bolsaLine">
                                         <label for="" class="minLabel">Nombre de la empresa</label>
-                                        <input id="inExperience" name="experience" type="text">
+                                        <input name="experience" type="text">
                                     </div>
 
-                                    <div class="bolsaLine">
+                                    <div id="formDateIn" class="bolsaLine">
                                         <label for="" class="minLabel">Fecha de ingreso</label>
                                         <select name="dayIn" id="">
+                                            <option value="-">Día</option>
                                             <option value="1">1</option>
                                             <option value="2">2</option>
                                             <option value="3">3</option>
@@ -298,6 +299,7 @@
                                         </select>
 
                                         <select name="monthIn" id="">
+                                            <option value="-">Mes</option>
                                             <option value="Enero">Enero</option>
                                             <option value="Febrero">Febrero</option>
                                             <option value="Marzo">Marzo</option>
@@ -313,6 +315,8 @@
                                         </select>
 
                                         <select name="yearIn" id="">
+                                            <option value="-">Año</option>
+
                                             <option value="2016">2016</option>
                                             <option value="2015">2015</option>
                                             <option value="2014">2014</option>
@@ -390,9 +394,11 @@
                                     </div>
 
 
-                                    <div class="bolsaLine">
+                                    <div id="formDateOut" class="bolsaLine">
                                         <label for="" class="minLabel">Fecha de salida</label>
                                         <select name="dayOut" id="">
+                                            <option value="-">Día</option>
+
                                             <option value="1">1</option>
                                             <option value="2">2</option>
                                             <option value="3">3</option>
@@ -427,6 +433,8 @@
                                         </select>
 
                                         <select name="monthOut" id="">
+                                            <option value="-">Mes</option>
+
                                             <option value="Enero">Enero</option>
                                             <option value="Febrero">Febrero</option>
                                             <option value="Marzo">Marzo</option>
@@ -442,6 +450,8 @@
                                         </select>
 
                                         <select name="yearOut" id="">
+                                            <option value="-">Año</option>
+
                                             <option value="2016">2016</option>
                                             <option value="2015">2015</option>
                                             <option value="2014">2014</option>
@@ -518,9 +528,9 @@
                                         </select>
                                     </div>
 
-                                    <div class="bolsaLine">
+                                    <div id="formActivities" class="bolsaLine">
                                         <label for="" class="minLabel">Descripción de actividades</label>
-                                        <input id="inActivities" type="text" name="activities">
+                                        <input type="text" name="activities">
                                     </div>
 
                                     <div class="bolsaLine">
@@ -567,7 +577,7 @@
                             <div class="contactData">
                                 <div class="thirdColumn">
                                     <h3 class="contactTitle">Teléfono</h3>
-                                    <p>36 47 44 03</p>
+                                    <p>36 47 44 03 y 31 21 51 68</p>
 
                                     <h3 class="contactTitle">Mail</h3>
                                     <p>contacto@rivasfregoso.com</p>

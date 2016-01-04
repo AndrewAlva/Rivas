@@ -394,7 +394,6 @@ textarea {
 
                         .bolsaLine input{
                             position: absolute;
-                            width: auto;
                             right: 0;
                             background-color: transparent;
                             border: none;
@@ -408,6 +407,53 @@ textarea {
                             text-transform: none;
                             font-size: .6em;
                         }
+
+                    /*FORM INPUT STYLING*/
+                        #formName input{
+                            width: 75%;
+                        }
+                        #formAge input, #formMail input {
+                            width: 82%;
+                        }
+                        #formPhone input, #formAdd input {
+                            width: 70%;
+                        }
+
+                        #formCar select{
+                            position: absolute;
+                            right: 0;
+                            background-color: rgba(0,0,0,.5);
+                            box-shadow: 2px 2px 0 rgba(0,0,0,.8);
+                            border-radius: 0px !important;
+                            border: none;
+                        }
+
+                        #formProgram input{
+                            width: 39%;
+                        }
+
+                        /*SECOND HALF*/
+
+                        #formCareer input{
+                            width: 73%;
+                        }
+                        #formStudent input, #formBachelor input, #formMaster input{
+                            width: 20px;
+                            height: 20px;
+                        }
+                        #formExperience input{}
+                        #formDateIn label, #formDateOut label {
+                            margin-right: 7%;
+                        }
+                        #formDateIn select, #formDateOut select{
+                            background-color: rgba(0,0,0,.5);
+                            box-shadow: 2px 2px 0 rgba(0,0,0,.8);
+                            border-radius: 0px !important;
+                            border: none;
+                        }
+                        #formActivites input{}
+
+                    /*END FORM INPUTS*/
 
                     .attachFile{
                         position: relative;
@@ -434,6 +480,7 @@ textarea {
                         }
 
                         #inSubmit{
+                            width: 100px;
                             text-align: center;
                             background-color: rgba(20,20,20,1);
                         }
