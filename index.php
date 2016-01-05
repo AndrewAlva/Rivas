@@ -548,7 +548,7 @@
                                     <div id="attachCV" class="bolsaLine">
                                         <div class="attachFile">
                                             <label for="" class="fakeButton">Adjuntar CV</label>
-                                            <input id="inCV" name="CV" type="file">
+                                            <input id="inCV" name="CV" type="file" accept=".doc, .docx, .pdf">
                                         </div>
                                         <label for="" class="xminLabel">CV formato Word o PDF <br> con fotografía</label>
                                     </div>
