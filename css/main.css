@@ -123,6 +123,15 @@ textarea {
         float: left;
         
     }
+
+    .rfSectionTitle{
+        position: relative;
+        width: 100%;
+        height: 50px;
+        text-transform: uppercase;
+        margin: 0;
+        font-size: 1.7em;
+    }
 /*END GENERAL WRAPPERS*/
 
 /*HEADER*/
@@ -278,9 +287,6 @@ textarea {
             height: 100%;
 
         }
-            #nosotrosWrap .halfColumn h3{
-                text-transform: uppercase;
-            }
             #nosotrosWrap .halfColumn h4{
                 text-transform: uppercase;
             }
@@ -303,12 +309,6 @@ textarea {
         top: 0; bottom: 0;
         left: 0; right: 0;
     }
-        #serviceWrap h3{
-            position: relative;
-            width: 100%;
-            height: 50px;
-            text-transform: uppercase;
-        }
 
         #serviceWrap .servicesList{
             position: relative;
@@ -362,13 +362,6 @@ textarea {
             top: 0; bottom: 0;
             left: 0; right: 0;
         }
-            #bolsaWrap h3{
-                position: relative;
-                width: 100%;
-                height: 50px;
-                text-transform: uppercase;
-                margin: 0;
-            }
 
             #bolsaWrap .innerBox{
                 position: relative;
@@ -552,19 +545,87 @@ textarea {
             left: 0; right: 0;
             background-color: rgba(0,255,0,.5);
         }
-            #contactWrap h3{
-                position: relative;
-                width: 100%;
-                height: 50px;
-                text-transform: uppercase;
-                margin: 0;
-            }
 
             #contactWrap .innerBox{
                 position: relative;
                 width: 100%;
                 background-color: rgba(255,0,0,.5);
             }
+
+                #contactWrap .innerBox form{
+                    position: relative;
+                    width: 100%;
+                    height: auto;
+                    float: left;
+                    
+                }
+
+                    #contactWrap .innerBox form .contactLine{
+                        position: relative;
+                        width: 100%;
+                        height: auto;
+                        float: left;
+                        margin-bottom: 5px;
+                    }
+
+                        #contactWrap .innerBox form .contactLine label{
+                            position: relative;
+                            float: left;
+                            width: 8%;
+                            text-transform: uppercase;
+                        }
+                        #contactWrap .innerBox form .contactLine input, #contactWrap .innerBox form .contactLine textarea{
+                            position: relative;
+                            float: left;
+                            width: 92%;
+                            background-color: rgba(20,20,20,.8);
+                            border: none;
+                            -webkit-font-smoothing: antialiased;
+                               -moz-font-smoothing: antialiased;
+                                -ms-font-smoothing: antialiased;
+                                 -o-font-smoothing: antialiased;
+                                    font-smoothing: antialiased;
+                        }
+                
+                #contactWrap .innerBox .contactData{
+                    position: relative;
+                    width: 100%;
+                    height: auto;
+                    float: left;
+                    margin-top: 50px;
+                }
+                    #contactWrap .innerBox .contactData .thirdColumn{
+                        position: relative;
+                        float: left;
+                        width: 30%;
+                        margin-right: 3.33%;
+                    }
+                        #contactWrap .innerBox .contactData .thirdColumn .contactTitle{
+                            font-size: 1em;
+                            text-transform: uppercase;
+                            margin: 0;
+                        }
+
+                        #contactWrap .innerBox .contactData .thirdColumn p{
+                            margin: 0 0 10px 0;
+                        }
+
+                        #contactWrap .innerBox .contactData .thirdColumn .contactBtn{
+                            position: relative;
+                            display: inline-block;
+                            background-color: rgba(0,0,0,1);
+                            text-transform: uppercase;
+                            text-decoration: none;
+                            padding: 5px 10px;
+                            margin-bottom: 5px;
+                        }
+                        #mailRivas{
+                            text-decoration: none;
+                            color: #fff;
+                        }
+                        #contactWrap .innerBox .contactData .thirdColumn .contactBtn:hover, #mailRivas:hover{
+                            text-decoration: underline;
+                        }
 
 /*END CONTACTO // S5*/
 

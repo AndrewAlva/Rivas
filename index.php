@@ -53,7 +53,7 @@
                 <div id="section2" class="rfSections">
                     <div id="nosotrosWrap">
                         <div class="halfColumn tdropShadow">
-                            <h3>Nosotros</h3>
+                            <h3 class="rfSectionTitle">Nosotros</h3>
                             <p>
                                 Somos una firma mexicana de contadores públicos y consultores, destacada por su liderazgo en la prestación de servicios integrales Y personalizados a las empresas privadas y a sus propietarios en nuestro país. Rivas y Fregoso, fue fundada en 2008 con el compromiso de brindar servicios integrales a sus clientes con altos estándares de operación, tales como: calidad profesional, experiencia, compromiso personal y de equipo; manteniendo siempre una comunicación efectiva con los dueños y directivos de las empresas. La Firma se encuentra integrada por profesionales altamente capacitados en las distintas ramas, los cuales participan en la prestación de servicios en el ámbito fiscal, contable, de consultoría y planeación fiscal, jurídico, de seguridad social y outsourcing administrativo, contable y de capital humano.
                             </p>
@@ -76,7 +76,7 @@
 
                 <div id="section3" class="rfSections">
                     <div id="serviceWrap" class="tdropShadow">
-                        <h3>Servicios</h3>
+                        <h3  class="rfSectionTitle">Servicios</h3>
                         <div class="servicesList easeInOut showService">
                             <h4>Contabilidad</h4>
                             <p>
@@ -185,7 +185,7 @@
 
                 <div id="section4" class="rfSections">
                     <div id="bolsaWrap" class="tdropShadow">
-                        <h3>Bolsa de Trabajo</h3>
+                        <h3 class="rfSectionTitle">Bolsa de Trabajo</h3>
                         <div class="innerBox">
                             <form action="">
                                 <div class="halfColumn">
@@ -567,8 +567,11 @@
 
                 <div id="section5" class="rfSections">
                     <div id="contactWrap" class="tdropShadow">
-                        <h3>Contacto</h3>
+                        <h3 class="rfSectionTitle">Contacto</h3>
+
+
                         <div class="innerBox">
+
                             <form action="">
                                 <div class="contactLine">
                                     <label for="">Nombre</label>
@@ -592,7 +595,7 @@
                                     <p>36 47 44 03 y 31 21 51 68</p>
 
                                     <h3 class="contactTitle">Mail</h3>
-                                    <p>contacto@rivasfregoso.com</p>
+                                    <p><a id="mailRivas" href="mailto:contacto@rivasfregoso.com">contacto@rivasfregoso.com</a></p>
                                 </div>
                                 <div class="thirdColumn">
                                     <h3 class="contactTitle">Dirección</h3>
@@ -601,7 +604,7 @@
                                 </div>
                                 <div class="thirdColumn">
                                     <h3 class="contactTitle">Redes</h3>
-                                    <a href="#" class="contactBtn">Facebook</a>
+                                    <a href="#" class="contactBtn">Facebook</a> <br>
                                     <a href="#" class="contactBtn">Twitter</a>
                                 </div>
                             </div>
