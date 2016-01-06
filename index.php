@@ -600,12 +600,11 @@
                                 <div class="thirdColumn">
                                     <h3 class="contactTitle">Dirección</h3>
                                     <p>Lázaro Cárdenas #2990, Colonia: Jardines del Bosque, Gudalajara, Jalisco</p>
-                                    <a href="#" class="contactBtn">Ver en Google Maps</a>
+                                    <a href="https://goo.gl/maps/jhVMajTHEM52" target="_blank" class="contactBtn">Ver en Google Maps</a>
                                 </div>
                                 <div class="thirdColumn">
                                     <h3 class="contactTitle">Redes</h3>
-                                    <a href="#" class="contactBtn">Facebook</a> <br>
-                                    <a href="#" class="contactBtn">Twitter</a>
+                                    <a href="https://www.facebook.com/RivasFregoso-476364019141679/?fref=ts" target="_blank" class="contactBtn">Facebook</a> <br>
                                 </div>
                             </div>
                         </div>
