@@ -2,7 +2,7 @@
     <head>
         <meta charset="utf-8">
         <meta http-equiv="x-ua-compatible" content="ie=edge">
-        <title>Rivas&Fregoso</title>
+        <title>Rivas & Fregoso</title>
         <meta name="description" content="">
         <meta name="viewport" content="width=device-width, initial-scale=1">
 
@@ -568,20 +568,20 @@
 
                         <div class="innerBox">
 
-                            <form action="">
+                            <form action="mail.php" name="contact-form" method="POST" enctype="multipart/form-data">
                                 <div class="contactLine">
                                     <label for="">Nombre</label>
-                                    <input type="text" name="">
+                                    <input type="text" name="name">
                                 </div>
 
                                 <div class="contactLine">
                                     <label for="">Teléfono</label>
-                                    <input type="text" name="">
+                                    <input type="text" name="phone">
                                 </div>
 
                                 <div class="contactLine">
                                     <label for="">Mensaje</label>
-                                    <textarea name="" id="" cols="30" rows="10"></textarea>
+                                    <textarea name="message" id="" cols="30" rows="10"></textarea>
                                 </div>
 
                                 <div id="conSubmitLine">
