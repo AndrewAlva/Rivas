@@ -101,6 +101,10 @@ textarea {
         font-family: 'PT Sans', sans-serif;
     }
 
+    body{
+        background-color: #000;
+    }
+
     #fullWrapper{
         position: absolute;
         width: 100%;
@@ -161,6 +165,12 @@ textarea {
             background-color: rgba(255,0,0,.5);
         }
 
+        #logoLi a{
+            position: absolute;
+            width: 100%;
+            height: 100%;
+        }
+
         #logoLi img{
             position: absolute;
             margin: auto;
@@ -180,7 +190,9 @@ textarea {
 
 /*HOME // SECTION 1*/
     #section1{
-        background-color: rgba(0,0,0,.5);
+        background: url(../img/bgs/home.jpg);
+        background-size: cover;
+        background-repeat: no-repeat;
     }
 
     #homeDescription{
@@ -257,8 +269,8 @@ textarea {
                 z-index: 1;
                 background-color: rgba(0,0,0,.5);
 
-                opacity: 0;
-                filter: alpha(opacity=0);
+                opacity: 1;
+                filter: alpha(opacity=1);
             }
                 #homeServiceList li .sContent:hover{
                     opacity: 1;
@@ -268,7 +280,9 @@ textarea {
 
 /*NOSOTROS // SECTION 2*/
     #section2{
-        background-color: rgba(0,0,0,.6);
+        background: url(../img/bgs/us.jpg);
+        background-size: cover;
+        background-repeat: no-repeat;
     }
 
     #nosotrosWrap{
@@ -293,12 +307,19 @@ textarea {
             #nosotrosWrap .halfColumn p{
                 width: 80%;
                 padding: 2% 10% 10% 10%;
+                -webkit-font-smoothing: antialiased;
+                   -moz-font-smoothing: antialiased;
+                    -ms-font-smoothing: antialiased;
+                     -o-font-smoothing: antialiased;
+                        font-smoothing: antialiased;
             }
 /*END NOS // S2*/
 
 /*SERVICIOS // SECTION 3*/  
     #section3{
-        background-color: rgba(0,0,0,.7);
+        background: url(../img/bgs/services.jpg);
+        background-size: cover;
+        background-repeat: no-repeat;
     }
 
     #serviceWrap{
@@ -331,6 +352,7 @@ textarea {
                 padding: 8px 15px;
                 text-transform: uppercase;
                 background-color: rgba(0,0,0,1);
+                cursor: pointer;
             }
             #serviceWrap .servicesList p{
                 padding-left: 15px;
@@ -350,7 +372,9 @@ textarea {
 
 /*BOLSA DE TRABAJO // SECTION 4*/
     #section4{
-        background-color: rgba(0,0,0,.6);
+        background: url(../img/bgs/employment.jpg);
+        background-size: cover;
+        background-repeat: no-repeat;
     }
 
         #bolsaWrap{
@@ -485,8 +509,17 @@ textarea {
                         #formActivities {
                             margin-bottom: 30px;
                         }
-                        #formActivities input{
-                            width: 50%;
+                        #formActivities textarea{
+                            width: 100%;
+                            margin-top: 5px;
+                            background-color: transparent;
+                            border: none;
+                            border: 2px solid #000;
+                            -webkit-font-smoothing: antialiased;
+                               -moz-font-smoothing: antialiased;
+                                -ms-font-smoothing: antialiased;
+                                 -o-font-smoothing: antialiased;
+                                    font-smoothing: antialiased;
                         }
 
                     /*END FORM INPUTS*/
@@ -529,11 +562,16 @@ textarea {
                             font-weight: bolder;
                             background-color: rgba(20,20,20,1);
                         }
+                        #inSubmit:hover{
+                            background-color: rgba(100,100,100,.8);
+                        }
 /*END BOLSA // S4*/
 
 /*CONTACTO // SECTION 5*/
     #section5{
-        background-color: rgba(255,0,0,.5);
+        background: url(../img/bgs/contact.jpg);
+        background-size: cover;
+        background-repeat: no-repeat;
     }
 
         #contactWrap{
@@ -543,13 +581,11 @@ textarea {
             margin: auto;
             top: 0; bottom: 0;
             left: 0; right: 0;
-            background-color: rgba(0,255,0,.5);
         }
 
             #contactWrap .innerBox{
                 position: relative;
                 width: 100%;
-                background-color: rgba(255,0,0,.5);
             }
 
                 #contactWrap .innerBox form{
@@ -586,6 +622,26 @@ textarea {
                                  -o-font-smoothing: antialiased;
                                     font-smoothing: antialiased;
                         }
+                        #contactWrap .innerBox form .contactLine input:focus, #contactWrap .innerBox form .contactLine textarea:focus{
+                            background-color: rgba(20,20,20,1);
+                        }
+                        #conSubmitLine{
+                            position: relative;
+                            float: left;
+                            width: 100px;
+                            height: 50px;
+                            padding-left: 8%;
+                            margin-top: 30px;
+                        }
+                            #conSubmitLine input{
+                                width: 100%;
+                                background-color: rgba(0,0,0,1);
+                                border: none;
+                                padding: 5px 10px;
+                            }
+                            #conSubmitLine input:hover{
+                                background-color: rgba(100,100,100,.8);
+                            }
                 
                 #contactWrap .innerBox .contactData{
                     position: relative;
@@ -626,7 +682,6 @@ textarea {
                         #contactWrap .innerBox .contactData .thirdColumn .contactBtn:hover, #mailRivas:hover{
                             text-decoration: underline;
                         }
-
 /*END CONTACTO // S5*/
 
 

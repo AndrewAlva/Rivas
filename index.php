@@ -22,9 +22,11 @@
         <!-- Add your site or application content here -->
         
         <div id="fullWrapper">
-            <?php
-                include("header.php");
-            ?>
+            <header id="menuHeader">
+                <?php
+                    include("header.php");
+                ?>
+            </header>
 
             <div id="sectionsWrapper">
                 <div id="section1" class="rfSections">
@@ -36,15 +38,15 @@
                     <div id="homeServiceList">
                         <li>
                             <div class="sTitle">Derecho Laboral</div>
-                            <div class="sContent easeInOut">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Officiis temporibus ullam adipisci explicabo quia sit harum eveniet, amet laboriosam. Corporis magnam ducimus  architecto aut porro!</div>
+                            <!-- <div class="sContent easeInOut">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Officiis temporibus ullam adipisci explicabo quia sit harum eveniet, amet laboriosam. Corporis magnam ducimus  architecto aut porro!</div> -->
                         </li>
                         <li>
                             <div class="sTitle">Derecho Penal</div>
-                            <div class="sContent easeInOut">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sint unde quos qui facere quas quibusdam laudantium, illum est, a, suscipit rem explicabo aliquid  harum dolores.</div>
+                            <!-- <div class="sContent easeInOut">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sint unde quos qui facere quas quibusdam laudantium, illum est, a, suscipit rem explicabo aliquid  harum dolores.</div> -->
                         </li>
                         <li>
                             <div class="sTitle">Derecho Civil</div>
-                            <div class="sContent easeInOut">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Blanditiis recusandae dolor sapiente nobis sit, inventore veritatis nihil possimus vitae, saepe asperiores  Voluptas autem nemo placeat.</div>
+                            <!-- <div class="sContent easeInOut">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Blanditiis recusandae dolor sapiente nobis sit, inventore veritatis nihil possimus vitae, saepe asperiores  Voluptas autem nemo placeat.</div> -->
                         </li>
                     </div>
                 </div>
@@ -77,8 +79,8 @@
                 <div id="section3" class="rfSections">
                     <div id="serviceWrap" class="tdropShadow">
                         <h3  class="rfSectionTitle">Servicios</h3>
-                        <div class="servicesList easeInOut showService">
-                            <h4>Contabilidad</h4>
+                        <div id="infoCont" class="servicesList showService">
+                            <h4 id="toggleCont">Contabilidad</h4>
                             <p>
                                 Nuestros servicios de contabilidad estarán enfocados al cumplimiento con las Normas Contables aplicables a su empresa, así como con la materia fiscal, mercantil y/o alguna otra que tuviera alguna afectación en los registros contables y legales, adicionalmente se buscará obtener la oportuna preparación de la información financiera, para una adecuada toma de decisiones de la empresa. <br><br>
 
@@ -89,13 +91,11 @@
                                 <ol>• Registro y codificación de Contabilidad</ol>
 
                                 <ol>• Consultoría y Revisión de Contabilidad</ol>
-
-
                             </p>
                         </div>
 
-                        <div class="servicesList easeInOut">
-                            <h4>Fiscal</h4>
+                        <div id="infoFis" class="servicesList">
+                            <h4 id="toggleFis">Fiscal</h4>
                             <p>
                                 El entorno de la materia fiscal en la actualidad es cada vez más complejo, lo que conlleva a más exigencias por parte de la autoridad, los departamentos de impuestos de las empresas se encuentran bajo presión para ser más eficientes y poder crear estrategias que ayuden a la empresa a continuar en una operación económica sana y puede ser difícil encontrar consultores altamente calificados que puedan brindarte el apoyo necesario en esta área. <br><br>
 
@@ -110,13 +110,11 @@
                                 <ol>• Devoluciones y Compensaciones</ol>
 
                                 <ol>• Planeación y Estrategia Fiscal</ol>
-
-
                             </p>
                         </div>
 
-                        <div class="servicesList easeInOut">
-                            <h4>Nómina</h4>
+                        <div id="infoNom" class="servicesList">
+                            <h4 id="toggleNom">Nómina</h4>
                             <p>
                                 La normatividad laboral y de seguridad social, conlleva a los empresarios a que deban cumplir una serie de obligaciones con respecto del personal que colabora dentro de sus negocios, por ello es de gran importancia contar con el apoyo especializado para el debido cumplimiento de dichas obligaciones. <br><br>
 
@@ -132,12 +130,11 @@
                                 <ol>• Cálculo y presentación de Impuestos Estatales </ol>
 
                                 <ol>• Administración y Planeación en Seguridad Social </ol>
-
                             </p>
                         </div>
 
-                        <div class="servicesList easeInOut">
-                            <h4>Legal</h4>
+                        <div id="infoLeg" class="servicesList">
+                            <h4 id="toggleLeg">Legal</h4>
                             <p>
                                 Es muy importante estar debidamente asesorados en todos los aspectos legales en torno a las operaciones que realizan en sus negocios, con el objetivo de tener la certeza jurídica, así como estar dentro del marco legal en las operaciones que se llevan a cabo en el día a día. Por consiguiente ofrecemos los siguientes servicios: <br><br>
 
@@ -175,7 +172,6 @@
                                     <span> PENAL </span> <br>
                                     Delitos Patrimoniales
                                 </div>
-
                             </p>
                         </div>
 
@@ -542,7 +538,7 @@
 
                                     <div id="formActivities" class="bolsaLine">
                                         <label for="" class="minLabel">Descripción de actividades</label>
-                                        <input type="text" name="activities">
+                                        <textarea name="activities" id="" cols="30" rows="5"></textarea>
                                     </div>
 
                                     <div id="attachCV" class="bolsaLine">
@@ -554,7 +550,7 @@
                                     </div>
                                     
                                     <div class="bolsaLine">
-                                        <input id="inSubmit" name="submit" type="submit" value="ENVIAR">
+                                        <input id="inSubmit" class="easeInOut" name="submit" type="submit" value="ENVIAR">
                                     </div>
 
 
@@ -586,6 +582,10 @@
                                 <div class="contactLine">
                                     <label for="">Mensaje</label>
                                     <textarea name="" id="" cols="30" rows="10"></textarea>
+                                </div>
+
+                                <div id="conSubmitLine">
+                                    <input class="easeInOut" name="submit" type="submit" value="ENVIAR">
                                 </div>
                             </form>
 
