@@ -714,8 +714,74 @@ textarea {
 
 
 
+/*RESPONSIVE CLASSES*/
+
+    /*LAPTOP STYLE*/
+    @media (max-width: 1299px){
+        /*HOME SECTION // S1*/
+            #homeDescription{
+                width: 90%;
+            }
+            #homeDescription h1{
+                font-size: 3.2em;
+            }
+            
+            #homeDescription h2{
+                width: 70%;
+                margin-top: 10px;
+            }
+        /*END HOME // S1*/
 
 
+        /*S2*/
+            #nosotrosWrap{
+                width: 80%;
+            }
+        /*END S2*/
+
+
+        /*S3*/
+            #formProgram input{
+                width: 41%;
+            }
+            #formExperience input{
+                width: 51%;
+            }
+        /*END S3*/
+
+
+        /*S4*/
+            #bolsaWrap{
+                width: 85%;
+            }
+        /*END S4*/
+
+
+        /*S5*/
+            #contactWrap .innerBox form .contactLine label{
+                width: 12%;
+            }
+            #contactWrap .innerBox form .contactLine input, #contactWrap .innerBox form .contactLine textarea{
+                width: 88%;
+            }
+            #conSubmitLine{
+                padding-left: 12%;
+            }
+            #contactWrap .innerBox .contactData .thirdColumn{
+                width: 33.33%;
+                margin-right: 0;
+            }
+        /*END S5*/
+    }
+    
+    /*TABLET STYLE*/
+    @media (max-width: 1299px){}
+
+    /*MOBILE STYLE*/
+    @media (max-width: 1299px){}
+
+    
+/*END RESPONSIVE CLASSES*/
 
 
 
