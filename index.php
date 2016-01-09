@@ -183,7 +183,7 @@
                     <div id="bolsaWrap" class="tdropShadow">
                         <h3 class="rfSectionTitle">Bolsa de Trabajo</h3>
                         <div class="innerBox">
-                            <form action="">
+                            <form action="employment.php" name="employment-form" method="POST" enctype="multipart/form-data">
                                 <div class="halfColumn">
                                     <div id="formName" class="bolsaLine">
                                         <label for="">Nombre</label>
@@ -211,10 +211,10 @@
                                     </div>
 
                                     <div id="formCar" class="bolsaLine">
-                                        <label for="">Cuenta con Auto Propio</label>
+                                        <label for="">Cuenta con auto propio</label>
                                         <select name="car" id="">
-                                            <option value="-">-</option>
-                                            <option value="Yes">Si</option>
+                                            <option value="Indefinido">-</option>
+                                            <option value="Si">Si</option>
                                             <option value="No">No</option>
                                         </select>
                                     </div>
@@ -269,7 +269,7 @@
                                         <div id="formDateIn" class="bolsaLine">
                                             <label for="" class="innerLabel">Fecha de ingreso</label>
                                             <select name="dayIn" id="">
-                                                <option value="-">-Día</option>
+                                                <option value="Indefinido">-Día</option>
                                                 <option value="1">1</option>
                                                 <option value="2">2</option>
                                                 <option value="3">3</option>
@@ -304,7 +304,7 @@
                                             </select>
 
                                             <select name="monthIn" id="">
-                                                <option value="-">-Mes</option>
+                                                <option value="Indefinido">-Mes</option>
                                                 <option value="Enero">Enero</option>
                                                 <option value="Febrero">Febrero</option>
                                                 <option value="Marzo">Marzo</option>
@@ -320,7 +320,7 @@
                                             </select>
 
                                             <select name="yearIn" id="">
-                                                <option value="-">-Año</option>
+                                                <option value="Indefinido">-Año</option>
 
                                                 <option value="2016">2016</option>
                                                 <option value="2015">2015</option>
@@ -402,7 +402,7 @@
                                         <div id="formDateOut" class="bolsaLine">
                                             <label for="" class="minLabel">Fecha de salida</label>
                                             <select name="dayOut" id="">
-                                                <option value="-">-Día</option>
+                                                <option value="Indefinido">-Día</option>
 
                                                 <option value="1">1</option>
                                                 <option value="2">2</option>
@@ -438,7 +438,7 @@
                                             </select>
 
                                             <select name="monthOut" id="">
-                                                <option value="-">-Mes</option>
+                                                <option value="Indefinido">-Mes</option>
 
                                                 <option value="Enero">Enero</option>
                                                 <option value="Febrero">Febrero</option>
@@ -455,7 +455,7 @@
                                             </select>
 
                                             <select name="yearOut" id="">
-                                                <option value="-">-Año</option>
+                                                <option value="Indefinido">-Año</option>
 
                                                 <option value="2016">2016</option>
                                                 <option value="2015">2015</option>

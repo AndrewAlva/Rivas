@@ -1,7 +1,7 @@
 <?php 
 
 	$recipient = "andrew@luckyme.mx";
-	$subject = "Mensaje de Contacto desde rivasfregoso.mx";
+	$subject = "Mensaje de Contacto desde rivasfregoso.com";
 
 
 	$name = $_POST['name'];
@@ -20,19 +20,13 @@
 			alert('Mensaje enviado');
 			window.location = 'index.php';
 		</script>
-		<?php } else { ?>
+	<?php } else { ?>
 
 		<script type="text/javascript">
 			alert('Mensaje no enviado, consulta al administrador.');
 			window.location = 'index.php';
 		</script>
-		<?php } 
-		?>
-
-	}
-
-}
-
-
-
-?>
+		
+	<?php 
+	} 
+	?>
