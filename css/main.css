@@ -1053,7 +1053,8 @@ textarea {
 
         /* EMPLOYMENT // SECTION 4 */
             #section4{
-                height: 390%;  
+                height: 400%;
+                max-height: 1280px;  
             }
         /* END S4 */
 
@@ -1061,7 +1062,6 @@ textarea {
         /* CONTACT // SECTION 5 */
             #section5{
                 height: 290%;
-                
             }
         /* END S5 */
     }
