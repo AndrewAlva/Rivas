@@ -193,6 +193,7 @@ textarea {
         background: url(../img/bgs/home.jpg);
         background-size: cover;
         background-repeat: no-repeat;
+        background-position: center center;
     }
 
     #homeDescription{
@@ -283,6 +284,7 @@ textarea {
         background: url(../img/bgs/us.jpg);
         background-size: cover;
         background-repeat: no-repeat;
+        background-position: center center;
     }
 
     #nosotrosWrap{
@@ -320,6 +322,7 @@ textarea {
         background: url(../img/bgs/services.jpg);
         background-size: cover;
         background-repeat: no-repeat;
+        background-position: center center;
     }
 
     #serviceWrap{
@@ -375,6 +378,7 @@ textarea {
         background: url(../img/bgs/employment.jpg);
         background-size: cover;
         background-repeat: no-repeat;
+        background-position: center center;
     }
 
         #bolsaWrap{
@@ -573,6 +577,7 @@ textarea {
         background: url(../img/bgs/contact.jpg);
         background-size: cover;
         background-repeat: no-repeat;
+        background-position: center center;
     }
 
         #contactWrap{
@@ -775,10 +780,236 @@ textarea {
     }
     
     /*TABLET STYLE*/
-    @media (max-width: 1299px){}
+    @media (max-width: 1024px) and (min-width: 768px){
+        /*HEADER*/
+            #menuHeader{
+                height: 65px;
+            }
 
+            #menuHeader li{
+                width: 17%;
+                font-size: .8em;
+                line-height: 65px;
+            }
+            #menuHeader #logoLi{
+                width: 32%;
+            }
+        /*END HEADER*/
+
+
+        /*HOME // S1*/
+            #homeServiceList li{
+                width: 30%;
+            }
+
+            #homeServiceList li:nth-child(2){
+                margin: 0 5%;
+            }
+        /*END // S1*/
+
+
+        /*EMPLOYMENT // S4*/
+            #bolsaWrap .innerBox .halfColumn{
+                width: 42.5%;
+            }
+
+            #bolsaWrap .innerBox .halfColumn:first-child{
+                margin-right: 5%;
+            }
+
+            #formProgram input{
+                position: relative;
+                width: 100%;
+                float: left;
+            }
+
+            #formProgram label, #formDateIn label, #formDateOut label{
+                width: 100%;
+                float: left;
+            }
+        /*END S4*/
+
+
+        /*CONTACT // S5*/
+            #contactWrap .innerBox .contactData .thirdColumn p{
+                padding-right: 30px;
+            }
+        /*END S5*/
+    }
+    /*TABLET PORTRAIT STYLE*/
+    @media (max-width: 1024px) and (min-width: 768px) and (orientation:portrait){
+        /*CONTACT // S5*/
+            #contactWrap .innerBox .contactData .thirdColumn{
+                width: 100%;
+                margin-bottom: 30px;
+            }
+        /*END S5*/
+    }
+    
     /*MOBILE STYLE*/
-    @media (max-width: 1299px){}
+    @media (max-width: 767px){
+        /*HEADER*/
+            #menuHeader{
+                display: none;
+                visibility: hidden;
+                opacity: 0;
+                filter: alpha(opacity=0);
+            }
+        /*END HEADER*/
+
+        /* GENERAL WRAPPERS */
+            #section2{
+                height: 250%;
+            }
+
+
+            .rfSections{
+                min-height: 480px;
+            }
+            .rfSectionTitle{
+                height: 30px;
+                font-size: 1.4em;
+            }
+        /* END GENERAL WRAPPERS */
+
+        /* HOME // SECTION 1 */
+            #homeDescription{
+                height: 96px;
+                bottom: 30%;
+            }
+            #homeDescription h1{
+                font-size: 1.5em;
+            }
+            #homeDescription h2{
+                font-size: .9em;
+            }
+
+            #homeServiceList{
+                width: 90%;
+                height: 10%;
+                top: 75%;
+            }
+            #homeServiceList li .sTitle{
+                font-size: .7em;
+                line-height: 1.2em;
+                padding: 10px 5px;
+            }
+        /* END S1*/
+
+
+        /* ABOUT US // SECTION 2 */
+            #nosotrosWrap{
+                width: 85%;
+                height: 90%;
+            }
+
+            #nosotrosWrap .halfColumn{
+                width: 100%;
+                height: auto;
+            }
+            #nosotrosWrap .halfColumn h4{
+                margin: 10px 0;
+            }
+            #nosotrosWrap .halfColumn p{
+                font-size: .8em;
+            }
+        /* END S2 */
+
+
+        /* SERVICES // SECTION 3 */
+            #section3{
+                height: 205%;
+            }
+
+            #serviceWrap{
+                width: 85%;
+                height: 90%;
+            }
+
+            #serviceWrap .servicesList .thirdColumn{
+                width: 90%;
+            }
+
+            #serviceWrap .servicesList p{
+                font-size: .8em;
+            }
+        /* END S3*/
+
+
+        /* EMPLOYMENT // SECTION 4 */
+            #section4{
+                height: 270%;
+            }
+
+            #bolsaWrap{
+                height: 90%;
+            }
+
+            #bolsaWrap .innerBox .halfColumn{
+                width: 100%;
+                height: auto;
+            }
+            #bolsaWrap .innerBox .halfColumn:first-child{
+                margin-right: 0;
+            }
+            #bolsaWrap .innerBox .halfColumn .bolsaLine label{
+                width: 100%;
+                float: left;
+            }
+
+            #bolsaWrap .innerBox .halfColumn input, #bolsaWrap .innerBox .halfColumn select, #bolsaWrap .innerBox .halfColumn textarea{
+                position: relative;
+                width: 100%;
+            }
+
+            #attachCV .xminLabel{
+                width: auto !important;
+            }
+
+            #inSubmit{
+                margin-top: 30px;
+            }
+        /* END S4 */
+
+
+        /* CONTACT // SECTION 5 */
+            #section5{
+                height: 200%;
+            }
+
+            #contactWrap{
+                width: 85%;
+                height: 90%;
+            }
+
+            #contactWrap .innerBox form .contactLine label{
+                width: 100%;
+                float: left;
+            }
+            #contactWrap .innerBox form .contactLine input, #contactWrap .innerBox form .contactLine textarea{
+                position: relative;
+                width: 100%;
+                margin-bottom: 10px;
+            }
+            #conSubmitLine{
+                width: 100%;
+                padding-left: 0;
+            }
+
+            #contactWrap .innerBox .contactData .thirdColumn{
+                width: 100%;
+                margin-bottom: 10px;
+            }
+            #contactWrap .innerBox .contactData .thirdColumn .contactBtn{
+                width: 80%;
+                padding: 5px 10%;
+                text-align: center;
+            }
+            #mailRivas{
+                text-decoration: underline;
+            }
+        /* END S5 */
+    }
 
     
 /*END RESPONSIVE CLASSES*/
