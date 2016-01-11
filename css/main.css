@@ -858,11 +858,6 @@ textarea {
         /*END HEADER*/
 
         /* GENERAL WRAPPERS */
-            #section2{
-                height: 250%;
-            }
-
-
             .rfSections{
                 min-height: 480px;
             }
@@ -898,6 +893,10 @@ textarea {
 
 
         /* ABOUT US // SECTION 2 */
+            #section2{
+                height: 250%;
+                max-height: 1030px;
+            }
             #nosotrosWrap{
                 width: 85%;
                 height: 90%;
@@ -919,6 +918,7 @@ textarea {
         /* SERVICES // SECTION 3 */
             #section3{
                 height: 205%;
+                max-height: 888px;
             }
 
             #serviceWrap{
@@ -930,7 +930,7 @@ textarea {
                 width: 90%;
             }
 
-            #serviceWrap .servicesList p{
+            #serviceWrap .servicesList{
                 font-size: .8em;
             }
         /* END S3*/
@@ -939,6 +939,7 @@ textarea {
         /* EMPLOYMENT // SECTION 4 */
             #section4{
                 height: 270%;
+                max-height: 1300px;
             }
 
             #bolsaWrap{
@@ -955,11 +956,20 @@ textarea {
             #bolsaWrap .innerBox .halfColumn .bolsaLine label{
                 width: 100%;
                 float: left;
+                font-size: .9em;
             }
 
             #bolsaWrap .innerBox .halfColumn input, #bolsaWrap .innerBox .halfColumn select, #bolsaWrap .innerBox .halfColumn textarea{
                 position: relative;
                 width: 100%;
+                font-size: .9em;
+            }
+
+            .attachFile{
+                width: 118px;
+                height: 34px;
+                line-height: 34px;
+                font-size: .9em;
             }
 
             #attachCV .xminLabel{
@@ -968,6 +978,8 @@ textarea {
 
             #inSubmit{
                 margin-top: 30px;
+                height: 34px;
+                line-height: 34px;
             }
         /* END S4 */
 
@@ -975,6 +987,7 @@ textarea {
         /* CONTACT // SECTION 5 */
             #section5{
                 height: 200%;
+                max-height: 955px;
             }
 
             #contactWrap{
@@ -999,6 +1012,11 @@ textarea {
             #contactWrap .innerBox .contactData .thirdColumn{
                 width: 100%;
                 margin-bottom: 10px;
+                -webkit-font-smoothing: antialiased;
+                   -moz-font-smoothing: antialiased;
+                    -ms-font-smoothing: antialiased;
+                     -o-font-smoothing: antialiased;
+                        font-smoothing: antialiased;
             }
             #contactWrap .innerBox .contactData .thirdColumn .contactBtn{
                 width: 80%;
@@ -1007,6 +1025,43 @@ textarea {
             }
             #mailRivas{
                 text-decoration: underline;
+            }
+        /* END S5 */
+    }
+
+
+    /* MOBILE LANDSCAPE STYLING */
+    @media (max-width: 767px) and (orientation:landscape){
+        /* ABOUT US // SECTION 2 */
+            #section2{
+                max-height: 800px;
+            }
+        /*END S2 */
+
+
+        /* SERVICES // SECTION 3*/
+            #section3{
+                max-height: 656px;
+            }
+
+            #serviceWrap .servicesList .thirdColumn{
+                width: 25%;
+                margin-right: 3%;
+            }
+        /* END S3 */
+
+
+        /* EMPLOYMENT // SECTION 4 */
+            #section4{
+                height: 390%;  
+            }
+        /* END S4 */
+
+
+        /* CONTACT // SECTION 5 */
+            #section5{
+                height: 290%;
+                
             }
         /* END S5 */
     }
