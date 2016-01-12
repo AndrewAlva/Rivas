@@ -22,11 +22,11 @@
         <!-- Add your site or application content here -->
         
         <div id="fullWrapper">
-            <header id="menuHeader">
-                <?php
-                    include("header.php");
-                ?>
-            </header>
+            
+            <?php
+                include("header.php");
+            ?>
+           
 
             <div id="sectionsWrapper">
                 <div id="section1" class="rfSections">

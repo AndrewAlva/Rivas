@@ -162,7 +162,7 @@ textarea {
             text-align: center;
         }
         #menuHeader li:hover{
-            background-color: rgba(255,0,0,.5);
+            background-color: rgba(255,255,255,.5);
         }
 
         #logoLi a{
@@ -1086,6 +1086,18 @@ textarea {
 .hidden {
     display: none !important;
 }
+
+
+
+@media (min-width: 768px){
+    .onlyMobile{
+        display: none;
+        visibility: hidden;
+        opacity: 0;
+        filter: alpha(opacity=0);
+    }
+}
+
 
 /*
  * Hide only visually, but have it available for screen readers:
