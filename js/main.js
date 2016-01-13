@@ -1,5 +1,15 @@
 jQuery(document).ready(function($) {
 
+	// MOBILE MENU INTERACTION
+		$('#toggleMobileMenu').click(function() {
+			$('#mobileHeader').toggleClass('activeMenu');
+		});
+
+
+		$('#mobileHeader').find('li').click(function() {
+			$('#mobileHeader').removeClass('activeMenu');
+		});
+	// END MOBILE MENU
 	
 	// SERVICES INTERACTION
 		$('#toggleCont').click(function() {

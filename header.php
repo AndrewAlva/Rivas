@@ -26,8 +26,15 @@
 	</li>
 </header>
 
-<header id="mobileHeader" class="onlyMobile">
-	<li id="logoLi" class="easeInOut">
+<header id="mobileHeader" class="easeInOut onlyMobile">
+	<div id="toggleMobileMenu" class="easeInOut">
+		<div class="menuBars easeInOut"></div>
+		<div class="menuBars easeInOut"></div>
+		<div class="menuBars easeInOut"></div>
+	</div>
+
+
+	<li id="mobileLogo" class="easeInOut">
 		<a class="easeInOut" href="#section1">
 			<img src="img/brand/logo-white.png" alt="Rivas & Fregoso">
 		</a>

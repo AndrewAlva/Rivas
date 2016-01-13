@@ -855,6 +855,112 @@ textarea {
                 opacity: 0;
                 filter: alpha(opacity=0);
             }
+
+            #mobileHeader{
+                position: absolute;
+                top: 0;
+                width: 100%;
+                height: 40px;
+                z-index: 1;
+                overflow: hidden;
+                border-bottom: 1px solid rgba(255,255,255,0);
+                background-color: rgba(0,0,0,1);
+            }
+            .activeMenu{
+                height: 200px !important;
+                border-bottom: 2px solid rgba(255,255,255,1) !important;
+            }
+
+                #mobileHeader li{
+                    position: relative;
+                    width: 100%;
+                    height: 40px;
+                    line-height: 40px;
+                    font-size: .8em;
+                    text-align: center;
+                    text-transform: uppercase;
+                    list-style: none;
+                    cursor: pointer;
+
+                    opacity: 0;
+                    filter: alpha(opacity=0);
+                }
+                #mobileHeader li a{
+                    display: block;
+                }
+                .activeMenu li{
+                    opacity: 1 !important;
+                    filter: alpha(opacity=1) !important;
+                }
+                #mobileHeader li:hover{
+                    background-color: rgba(100,100,100,.7);
+                }
+                    #mobileLogo{
+                        opacity: 1 !important;
+                        filter: alpha(opacity=1) !important;
+                    }
+                    #mobileHeader #mobileLogo img{
+                        position: absolute;
+                        margin: auto;
+                        top: 0; bottom: 0; left: 0; right: 0;
+                        height: 25px;
+                    }
+
+
+
+            #toggleMobileMenu{
+                position: absolute;
+                z-index: 10;
+                width: 30px;
+                height: 12px;
+                margin: auto;
+                top: 15px;
+                right: 30px;
+                cursor: pointer;
+            }
+            .activeMenu #toggleMobileMenu {
+                height: 30px !important;
+            }
+                #toggleMobileMenu .menuBars{
+                    position: absolute;
+                    width: 100%;
+                    height: 1px;
+                    background-color: rgba(255,255,255,1);
+                    margin: auto;
+                    top: 0;
+                    bottom: 0;
+                }
+                #toggleMobileMenu .menuBars:first-child{
+                    top: 0;
+                    bottom: 100%;
+                }
+                #toggleMobileMenu .menuBars:nth-child(2){
+                    top: 0;
+                    bottom: 0;
+                }
+                #toggleMobileMenu .menuBars:last-child{
+                    top: 100%;
+                    bottom: 0;
+                }
+
+                .activeMenu .menuBars:first-child{
+                    top: 0 !important;
+                    bottom: 0 !important;
+                    -webkit-transform: rotate(-45deg) !important;
+                       -moz-transform: rotate(-45deg) !important;
+                        -ms-transform: rotate(-45deg) !important;
+                         -o-transform: rotate(-45deg) !important;
+                            transform: rotate(-45deg) !important;
+                }
+                .activeMenu .menuBars:last-child{
+                    top: 0 !important;
+                    bottom: 0 !important;
+                    -webkit-transform: rotate(45deg) !important;
+                       -moz-transform: rotate(45deg) !important;
+                        -ms-transform: rotate(45deg) !important;
+                         -o-transform: rotate(45deg) !important;
+                            transform: rotate(45deg) !important;
+                }
         /*END HEADER*/
 
         /* GENERAL WRAPPERS */
