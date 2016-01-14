@@ -162,7 +162,7 @@ textarea {
             text-align: center;
         }
         #menuHeader li:hover{
-            background-color: rgba(255,255,255,.5);
+            background-color: rgba(80,80,80,.5);
         }
 
         #logoLi a{
@@ -569,7 +569,7 @@ textarea {
                             background-color: rgba(20,20,20,1);
                         }
                         #inSubmit:hover{
-                            background-color: rgba(100,100,100,.8);
+                            background-color: rgba(80,80,80,.5);
                         }
 /*END BOLSA // S4*/
 
@@ -647,7 +647,7 @@ textarea {
                                 padding: 5px 10px;
                             }
                             #conSubmitLine input:hover{
-                                background-color: rgba(100,100,100,.8);
+                                background-color: rgba(80,80,80,.5);
                             }
                 
                 #contactWrap .innerBox .contactData{
@@ -917,7 +917,7 @@ textarea {
                     filter: alpha(opacity=1) !important;
                 }
                 #mobileHeader li:hover{
-                    background-color: rgba(100,100,100,.7);
+                    background-color: rgba(80,80,80,.5);
                 }
                     #mobileLogo{
                         opacity: 1 !important;
@@ -1193,9 +1193,6 @@ textarea {
                 max-height: 1280px;  
             }
         /* END S4 */
-
-
-        
     }
 
     
