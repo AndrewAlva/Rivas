@@ -24,11 +24,17 @@
 	$monthOut = $_POST['monthOut'];
 	$yearOut = $_POST['yearOut'];
 	$activities = $_POST['activities'];
-	$CV = $_POST['CV'];
 
-	$email_from = "tester@luckyideas.mx";
+	//get file details we need
+    $file_tmp_name    = $_FILES['CV']['tmp_name'];
+    $file_name        = $_FILES['CV']['name'];
+    $file_size        = $_FILES['CV']['size'];
+    $file_type        = $_FILES['CV']['type'];
+    $file_error       = $_FILES['CV']['error'];
 
-	$formcontent=  "Aspirante: $name \n 
+
+	$message =  "DATOS DEL ASPIRANTE \n
+		Nombre: $name \n 
 		Edad: $age \n 
 		Correo: $mail \n 
 		Teléfono: $phone \n 
@@ -37,44 +43,64 @@
 		Programas manejados: $programs \n 
 		Carrera: $career \n \n
 
-		Grado de Estudios: \n
+		GRADO DE ESTUDIOS \n
 		Estudiante universitario: $student \n 
 		Licenciatura: $bachelor \n 
 		Maestría: $master \n \n
 
-		Experiencia Profesional \n
+		EXPERIENCIA PROFESIONAL \n
 		Nombre de la empresa: $experience \n 
 		Fecha de ingreso: $dayIn / $monthIn / $yearIn \n 
 		Fecha de Salida: $dayOut / $monthOut / $yearOut \n \n
 
-		Descripción de actividades: $activities \n \n
+		Descripción de actividades: $activities";
 
-		Curriculum Vitae: $CV" ;
+	//read from the uploaded file & base64_encode content for the mail
+    $handle = fopen($file_tmp_name, "r");
+    $content = fread($handle, $file_size);
+    fclose($handle);
+    $encoded_content = chunk_split(base64_encode($content));
 
-	$mailheader = "From: $email_from \r\n";
+
+        $boundary = md5("sanwebe");
+        $semi_rand = md5(time());
+		$mime_boundary = "==Multipart_Boundary_x{$semi_rand}x";
+        //header
+        $mailheader = "MIME-Version: 1.0\r\n"; 
+        $mailheader .= "From:".$mail."\r\n"; 
+        $mailheader .= "Reply-To: ".$mail."" . "\r\n";
+        $mailheader .= "Content-Type: multipart/mixed; boundary = $boundary\r\n\r\n"; 
+        
+        //plain text 
+        $formcontent = "--$boundary\r\n";
+        $formcontent .= "Content-Type: text/plain; charset=utf-8\r\n";
+        $formcontent .= "Content-Transfer-Encoding: base64\r\n\r\n"; 
+        $formcontent .= chunk_split(base64_encode($message)); 
+        
+        //attachment
+        $formcontent .= "--$boundary\r\n";
+        $formcontent .="Content-Type: $file_type; name=\"$file_name\"\r\n";
+        $formcontent .="Content-Disposition: attachment; filename=\"$file_name\"\r\n";
+        $formcontent .="Content-Transfer-Encoding: base64\r\n";
+        $formcontent .="X-Attachment-Id: ".rand(1000,99999)."\r\n\r\n"; 
+        $formcontent .= $encoded_content;
+
+
+	$mail_sent = mail($recipient, $subject, $formcontent, $mailheader) or die("Error!");
 	
 
-	include "mail/emailClass.php";
+	if ($mail_sent == true){ ?>
+		<script language="javascript" type="text/javascript">
+			alert('Mensaje enviado');
+			window.location = '../index.php';
+		</script>
+	<?php } else { ?>
 
-	$testEmail = new email;
-	$from       =   'andrew@luckyme.mx';
-	$sendTo     =   'andrew@luckyme.mx';
-	$subject    =   'Bolsa de Trabajo, Aspirante desde rivasfregoso.com';
-	$bodyHead   =   'Datos del aspirante:';
-	$bodyMain   =   'This is the body main text';
-	$bodyEnd    =   'Fin del Mensaje';
-	$filePath   =   '';
-	$fileName   =   'test.png';
-
-	if ($testEmail ->emailWithAttach($from, $sendTo, $subject, $bodyHead, $bodyMain, $bodyEnd, $filePath, $fileName))
-	{
-	    echo "Email Send successful";
-	}
-	else
-	{
-	    echo "Email Send Failed";
-	}
-	
-
-	
-?>
+		<script type="text/javascript">
+			alert('Mensaje no enviado, intenta de nuevo en unos momentos o consulta al administrador.');
+			window.location = '../index.php';
+		</script>
+		
+	<?php 
+	} 
+	?>

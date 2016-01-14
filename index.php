@@ -1,29 +1,3 @@
-<?php
-include "mail/emailClass.php";
-
-$testEmail = new email;
-$from       =   'andrew@luckyme.mx';
-$sendTo     =   'andrew@luckyme.mx';
-$subject    =   'Bolsa de Trabajo, Aspirante desde rivasfregoso.com';
-$bodyHead   =   'Datos del aspirante:';
-$bodyMain   =   'This is the body main text';
-$bodyEnd    =   'Fin del Mensaje';
-$filePath   =   '';
-$fileName   =   'test.png';
-
-if ($testEmail ->emailWithAttach($from, $sendTo, $subject, $bodyHead, $bodyMain, $bodyEnd, $filePath, $fileName))
-{
-    echo "Email Send successful";
-}
-else
-{
-    echo "Email Send Failed";
-}
-
-
-?>
-
-<!doctype html>
 <html class="no-js" lang="es">
     <head>
         <meta charset="utf-8">
@@ -46,8 +20,7 @@ else
         <![endif]-->
 
         <!-- Add your site or application content here -->
-
-
+        
         <div id="fullWrapper">
             
             <?php
@@ -595,7 +568,7 @@ else
 
                         <div class="innerBox">
 
-                            <form action="mail/contact.php" name="contact-form" method="POST" enctype="multipart/form-data">
+                            <form action="mail/mail.php" name="contact-form" method="POST" enctype="multipart/form-data">
                                 <div class="contactLine">
                                     <label for="">Nombre</label>
                                     <input type="text" name="name">
