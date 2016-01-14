@@ -648,10 +648,10 @@
                                 </div>
                                 <div class="thirdColumn">
                                     <h3 class="contactTitle">Dirección</h3>
-                                    <p>Lázaro Cárdenas #2990, Colonia: Jardines del Bosque, Gudalajara, Jalisco</p>
+                                    <p>Lázaro Cárdenas #2990, Colonia: Jardines del Bosque, Guadalajara, Jalisco</p>
                                     <a href="https://goo.gl/maps/jhVMajTHEM52" target="_blank" class="contactBtn">Ver en Google Maps</a>
                                 </div>
-                                <div class="thirdColumn">
+                                <div class="thirdColumn lastColumn">
                                     <h3 class="contactTitle">Redes</h3>
                                     <a href="https://www.facebook.com/RivasFregoso-476364019141679/?fref=ts" target="_blank" class="contactBtn">Facebook</a> <br>
                                 </div>

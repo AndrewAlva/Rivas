@@ -773,10 +773,10 @@ textarea {
 
         /*S5*/
             #contactWrap .innerBox form .contactLine label{
-                width: 12%;
+                width: 13%;
             }
             #contactWrap .innerBox form .contactLine input, #contactWrap .innerBox form .contactLine textarea{
-                width: 88%;
+                width: 87%;
             }
             #conSubmitLine{
                 padding-left: 12%;
@@ -874,6 +874,10 @@ textarea {
             #contactWrap .innerBox .contactData .thirdColumn{
                 width: 100%;
                 margin-bottom: 30px;
+            }
+
+            #contactWrap .innerBox .contactData .lastColumn{
+                margin-bottom: 0;
             }
         /*END S5*/
     }
@@ -1076,9 +1080,9 @@ textarea {
 
         /* EMPLOYMENT // SECTION 4 */
             #section4{
-                height: 270%;
-                min-height: 1283px;
-                max-height: 1340px;
+                height: 280%;
+                min-height: 1345px;
+                max-height: 1400px;
             }
 
             #bolsaWrap{
@@ -1179,13 +1183,15 @@ textarea {
         /* ABOUT US // SECTION 2 */
             #section2{
                 max-height: 800px;
+                min-height: 800px;
             }
         /*END S2 */
 
 
         /* SERVICES // SECTION 3*/
             #section3{
-                max-height: 786px;
+                max-height: 706px;
+                min-height: 706px;
             }
 
             #serviceWrap .servicesList .thirdColumn{
