@@ -234,7 +234,7 @@ textarea {
         height: 30%;
         margin: auto;
         left: 0; right: 0;
-        top: 70%;
+        top: 75%;
     }
         #homeServiceList li{
             position: relative;
@@ -809,7 +809,26 @@ textarea {
         /*END // S1*/
 
 
+        /* ABOUT US // S2 */
+            #section2{
+                min-height: 800px;
+            }
+        /* END S2 */
+
+
+
+        /* SERVICES // S3 */
+            #section3{
+                min-height: 800px;
+            }
+        /* END S3 */
+
+
         /*EMPLOYMENT // S4*/
+            #section4{
+                min-height: 800px;
+            }
+
             #bolsaWrap .innerBox .halfColumn{
                 width: 42.5%;
             }
@@ -1007,6 +1026,7 @@ textarea {
             #section2{
                 height: 250%;
                 max-height: 1030px;
+                min-height: 1030px;
             }
             #nosotrosWrap{
                 width: 85%;
@@ -1028,8 +1048,7 @@ textarea {
 
         /* SERVICES // SECTION 3 */
             #section3{
-                height: 205%;
-                max-height: 888px;
+                height: 888px;
             }
 
             #serviceWrap{
@@ -1050,6 +1069,7 @@ textarea {
         /* EMPLOYMENT // SECTION 4 */
             #section4{
                 height: 270%;
+                min-height: 1283px;
                 max-height: 1300px;
             }
 
@@ -1103,8 +1123,7 @@ textarea {
 
         /* CONTACT // SECTION 5 */
             #section5{
-                height: 200%;
-                max-height: 955px;
+                height: 955px;
             }
 
             #contactWrap{
@@ -1158,7 +1177,7 @@ textarea {
 
         /* SERVICES // SECTION 3*/
             #section3{
-                max-height: 656px;
+                max-height: 786px;
             }
 
             #serviceWrap .servicesList .thirdColumn{
@@ -1176,11 +1195,7 @@ textarea {
         /* END S4 */
 
 
-        /* CONTACT // SECTION 5 */
-            #section5{
-                height: 290%;
-            }
-        /* END S5 */
+        
     }
 
     
