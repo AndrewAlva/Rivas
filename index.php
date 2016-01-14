@@ -18,8 +18,24 @@
     <body>
         <!--[if IE]>
             <style>
+                #fullWrapper, #menuHeader{
+                    min-width: 960px;
+                }
+
+                #homeDescription h1{
+                    font-size: 3em;
+                }
+                
+                #homeDescription h2{
+                    font-size: 1em;
+                }
+
                 #section2{
                     height:900px;
+                }
+
+                #nosotrosWrap{
+                    width: 60%;
                 }
 
                 #serviceWrap .servicesList h4{
@@ -33,6 +49,16 @@
                     filter: none !important;
                     left: 0;
                 }
+
+                #section4{
+                    min-height: 820px;
+                }
+
+                #bolsaWrap{
+                    width: 90%; 
+                }
+
+
             </style>
         <![endif]-->
 
@@ -569,7 +595,7 @@
                                             <label for="" class="fakeButton">Adjuntar CV</label>
                                             <input id="inCV" name="CV" type="file" accept=".doc, .docx, .pdf">
                                         </div>
-                                        <label for="" class="xminLabel">CV formato Word o PDF <br> con fotografía</label>
+                                        <label for="" class="xminLabel">CV formato Word o PDF con fotografía</label>
                                     </div>
                                     
                                     <div class="bolsaLine">
