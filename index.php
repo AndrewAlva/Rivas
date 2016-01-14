@@ -13,8 +13,31 @@
         <link rel="stylesheet" href="css/normalize.css">
         <link rel="stylesheet" href="css/main.css">
         <script src="js/vendor/modernizr-2.8.3.min.js"></script>
+
     </head>
     <body>
+        <!--[if IE]>
+            <style>
+                #section2{
+                    height:900px;
+                }
+
+                #serviceWrap .servicesList h4{
+                    height: 42px;
+                    line-height: 42px;
+                    padding: 0px 15px;
+                    margin: 0 !important;
+                }
+
+                .attachFile input{
+                    filter: none !important;
+                    left: 0;
+                }
+            </style>
+        <![endif]-->
+
+
+
         <!--[if lt IE 8]>
             <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
         <![endif]-->
@@ -40,7 +63,7 @@
                             <div class="sTitle">Derecho Laboral</div>
                             <!-- <div class="sContent easeInOut">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Officiis temporibus ullam adipisci explicabo quia sit harum eveniet, amet laboriosam. Corporis magnam ducimus  architecto aut porro!</div> -->
                         </li>
-                        <li>
+                        <li class="secondTitle">
                             <div class="sTitle">Derecho Penal</div>
                             <!-- <div class="sContent easeInOut">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sint unde quos qui facere quas quibusdam laudantium, illum est, a, suscipit rem explicabo aliquid  harum dolores.</div> -->
                         </li>
