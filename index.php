@@ -7,6 +7,9 @@
         <meta name="viewport" content="width=device-width, initial-scale=1">
 
         <link rel="apple-touch-icon" href="apple-touch-icon.png">
+        <link rel="icon" 
+        type="image/png" 
+        href="favicon.png">
         <!-- Place favicon.ico in the root directory -->
         
         <link href='https://fonts.googleapis.com/css?family=PT+Sans:400,700' rel='stylesheet' type='text/css'>
