@@ -133,7 +133,7 @@
                             <p>
                                 Nuestros servicios de contabilidad estarán enfocados al cumplimiento con las Normas Contables aplicables a su empresa, así como con la materia fiscal, mercantil y/o alguna otra que tuviera alguna afectación en los registros contables y legales, adicionalmente se buscará obtener la oportuna preparación de la información financiera, para una adecuada toma de decisiones de la empresa. <br><br>
 
-                                Asimismo derivado a la competitividad que exige el mercado hoy en día, se trabajará con un alto nivel de profesionalismo y astucia donde se implementarán políticas contables adecuadas para ser aplicadas de forma que a los socios y encargados de la administración de la empresa les permitan analizar, pensar estratégicamente, planificar, cooperar y responder de una manera mejor manera a las situaciones que vive la empresa, originando una mejor toma de decisiones y no solo buscando cumplir con necesidades contables y legales obligatorias. <br><br>
+                                Asimismo derivado a la competitividad que exige el mercado hoy en día, se trabajará con un alto nivel de profesionalismo y astucia donde se implementarán políticas contables adecuadas para ser aplicadas de forma que a los socios y encargados de la administración de la empresa les permitan analizar, pensar estratégicamente, planificar, cooperar y responder de una mejor manera a las situaciones que vive la empresa, originando una mejor toma de decisiones y no sólo buscando cumplir con necesidades contables y legales obligatorias. <br><br>
 
                                 Algunos de nuestros servicios relacionados con esta área son: <br>
 
@@ -648,7 +648,7 @@
                                 </div>
                                 <div class="thirdColumn">
                                     <h3 class="contactTitle">Dirección</h3>
-                                    <p>Lázaro Cárdenas #2990, Colonia: Jardines del Bosque, Guadalajara, Jalisco</p>
+                                    <p>Lázaro Cárdenas #2990, Colonia Jardines del Bosque, Guadalajara, Jalisco</p>
                                     <a href="https://goo.gl/maps/jhVMajTHEM52" target="_blank" class="contactBtn">Ver en Google Maps</a>
                                 </div>
                                 <div class="thirdColumn lastColumn">

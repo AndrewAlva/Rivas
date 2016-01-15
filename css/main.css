@@ -901,6 +901,7 @@ textarea {
                 overflow: hidden;
                 border-bottom: 1px solid rgba(255,255,255,0);
                 background-color: #000;
+                z-index: 1000;
             }
             .activeMenu{
                 height: 200px !important;
@@ -1081,8 +1082,8 @@ textarea {
         /* EMPLOYMENT // SECTION 4 */
             #section4{
                 height: 280%;
-                min-height: 1345px;
-                max-height: 1400px;
+                min-height: 1395px;
+                max-height: 1450px;
             }
 
             #bolsaWrap{
@@ -1106,6 +1107,7 @@ textarea {
                 position: relative;
                 width: 100%;
                 font-size: .9em;
+                left: 0;
             }
 
             .attachFile{
@@ -1203,8 +1205,9 @@ textarea {
 
         /* EMPLOYMENT // SECTION 4 */
             #section4{
-                height: 400%;
-                max-height: 1280px;  
+                height: 1395px;
+                min-height: 1395px; 
+                max-height: 1395px;  
             }
         /* END S4 */
     }
